@@ -167,10 +167,9 @@ footer{
     font-weight: bold;
     text-transform: uppercase;
     color: #929796;
-    background-color: #333;
-    border-radius: 5px;
+    background-color: #e6e6e6;
+    border-radius: 2px;
     overflow: hidden;
-    box-shadow: 0 0 2px 1px #0000001c;
 }
 
 .span-2 {
