@@ -1,0 +1,148 @@
+.ham{
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.ham > span{
+	height: 2px;
+	background: black;
+	display: block;
+	margin-bottom: 5px;
+	transition: 0.1s
+}
+
+.ham > span:nth-child(1){
+	width: 70%;
+	margin-left: 30%;
+}
+
+.ham > span:nth-child(2){
+	width: 100%;
+}
+
+.ham > span:nth-child(3){
+	width: 85%;
+	margin-left: 15%;
+}
+
+.ham:hover > span{
+	width: 100%;
+	margin-left: 0
+}
+
+.absolutes{
+	position: fixed;
+	z-index: 10
+}
+
+.absolutes > .a-item{
+	margin: 20px;
+}
+
+.absolutes > .top{
+	position: fixed;
+	transform: rotate(180deg);
+    text-align: center;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+}
+
+.absolutes > .ham{
+	position: fixed;
+	right: 0;
+}
+
+.absolutes > .s-menu{
+	position: fixed;
+	width: 60px;
+	height: 100%;
+}
+
+.logo{
+	color: black;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav > ul {
+	list-style: none;
+	padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nav > ul > li a{
+	color: #212529
+}
+
+.nav > ul > li{
+	margin-bottom: 20px;
+}
+
+.nav > ul > li:nth-child(1){
+	margin-bottom: 23px;
+}
+
+.section-container{
+	padding: 0 65px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.fs-18{
+	font-size: 18px;
+}
+
+h1{
+	font-size: 120px;
+    font-weight: bold;
+    padding-top: 220px;
+    margin-bottom: 300px;
+}
+
+h1 > span{
+	position: absolute;
+    left: 0;
+    margin-top: 115px;
+    font-size: 50px;
+    margin-left: 16px;
+    font-weight: 100;
+}
+
+.me-bg{
+	/*background: url(./me.png);*/
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+    background-size: 550px;
+    -webkit-filter: grayscale(45%);
+    filter: gray;
+    text-shadow: 0 0 1px #ffffff59;
+}
+.me-bg > .bordered{
+    border-bottom: 1px solid #d2d2d26b;
+}
+
+.hey-text{
+	color: #868686;
+    font-weight: 600;
+}
+
+.card{
+	border: none;
+}
+
+footer{
+	background: #F2F0F0;
+    padding: 60px 0;
+    width: 100%;
+}
